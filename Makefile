@@ -1,11 +1,11 @@
 all:
-	@make -C arm7
-	@make -f mainlib.mk
+	@$(MAKE) -C arm7
+	@$(MAKE) -f mainlib.mk
 
 clean:
-	@make -C arm7 clean
-	@make -f mainlib.mk clean
+	@$(MAKE) -C arm7 clean
+	@$(MAKE) -f mainlib.mk clean
 
 install:
-	@make -C arm7 install
-	@make -f mainlib.mk install
+	@$(MAKE) -C arm7 install
+	@$(MAKE) -f mainlib.mk install

@@ -10,17 +10,17 @@ This is a port of the Maxmod library to FeOS. There are several differences with
 - Filesystem/memory loading routines have been rewritten in C because the old ones were buggy and innefficent. As a side effect, you can use FAR with them (in fact it is recommended to do so).
 - There are several new functions (look at maxmod9.h) for details:
 
-	bool mmIsARM7Loaded();
-	bool mmInitDefaultHandle(FILE* f, bool bTakeOwnership);
-	bool mmInitDefaultFAR(far_t hFar, const char* aFileName);
-	void mmUnloadSoundbank();
+    bool mmIsARM7Loaded();
+    bool mmInitDefaultHandle(FILE* f, bool bTakeOwnership);
+    bool mmInitDefaultFAR(far_t hFar, const char* aFileName);
+    void mmUnloadSoundbank();
 
 How to install
 --------------
 
 Clone this repository to <FeOSSDK>/userlib/maxmod. Then issue this command:
 
-	make install
+    make install
 
 Maxmod FeOS app template
 ------------------------
