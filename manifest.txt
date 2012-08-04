@@ -1,0 +1,6 @@
+Title: Maxmod library
+Author: Mukunda Johnson, devkitPro <mukunda@maxmod.org>
+Copyright: 2008-2012 Mukunda Johnson (mukunda@maxmod.org)
+Description: A library that allows programs to make use of the Nintendo DS sound hardware.
+Version: 1.0.7
+License: ISC
