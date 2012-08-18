@@ -65,6 +65,7 @@ mmFreeARM7:
 	pop {pc}
 
 .global _mmChannel, _mmARM7handle
+.hidden _mmChannel, _mmARM7handle
 .align 2
 _mmChannel:
 	.word 0
