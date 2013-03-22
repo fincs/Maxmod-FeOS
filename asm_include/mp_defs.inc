@@ -117,17 +117,6 @@ mmrc_panning:		.space 1
 #endif
 
 #ifdef SYS_NDS9
-#define fifoSetValue32Handler FeOS_FifoSetValue32Handler
-#define fifoSetDatamsgHandler FeOS_FifoSetDatamsgHandler
-#define fifoSendValue32 FeOS_FifoSendValue32
-#define fifoSendDatamsg FeOS_FifoSendDatamsg
-#define fifoCheckValue32 FeOS_FifoCheckValue32
-#define fifoCheckDatamsg FeOS_FifoCheckDatamsg
-#define fifoGetValue32 FeOS_FifoGetValue32
-#define fifoGetDatamsg FeOS_FifoGetDatamsg
-#define irqEnable FeOS_IrqEnable
-#define irqDisable FeOS_IrqDisable
-#define irqSet FeOS_SetInterrupt
 #define DrainWriteBuffer FeOS_DrainWriteBuffer
 #define WaitForMemorySignal FeOS_WaitForMemAddr
 #endif

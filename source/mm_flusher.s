@@ -49,7 +49,7 @@ mmFlushBank:
 @ cache line size == 32
 	
 	lsl r1, #2 @ words->bytes
-	ldr	r3,=FeOS_DataCacheFlush
+	ldr	r3,=DC_FlushRange
 	bx	r3
 
 .pool

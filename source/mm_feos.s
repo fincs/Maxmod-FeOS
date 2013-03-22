@@ -60,7 +60,7 @@ mmFreeARM7:
 	pop {r0}
 	mov r1, #0
 	mov r2, #0
-	bl FeOS_FifoSetValue32Handler
+	bl fifoSetValue32Handler
 .Lret2:
 	pop {pc}
 
