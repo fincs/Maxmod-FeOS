@@ -15,7 +15,7 @@ mmLoadARM7:
 	push {lr}
 	ldr r0, =_mmARM7name
 	ldr r1, =_mmChannel
-	bl FeOS_LoadARM7
+	bl DSLoadARM7
 	cmp r0, #0
 	beq .Lret
 	ldr r1, =_mmARM7handle
@@ -56,7 +56,7 @@ mmFreeARM7:
 	ldr r1, =_mmChannel
 	ldr r1, [r1]
 	push {r1}
-	bl FeOS_FreeARM7
+	bl DSFreeARM7
 	pop {r0}
 	mov r1, #0
 	mov r2, #0
